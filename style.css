@@ -429,7 +429,7 @@ div label[for=ui-component-toggle__yearly] {
   gap: var(--ui-gap-header);
   left: 0;
   opacity: 0;
-  padding: 7.375rem var(--ui-layout-container) 5rem;
+  padding: 2rem var(--ui-layout-container) 5rem;
   position: absolute;
   top: -1rem;
   transition: all 250ms cubic-bezier(.785, .135, .15, .86);
