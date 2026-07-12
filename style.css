@@ -736,6 +736,17 @@ div label[for=ui-component-toggle__yearly] {
     position: relative;
   }
 
+  .ui-layout-grid-4 {
+    column-gap: var(--ui-layout-gutter);
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+
+  .ui-layout-grid-4 div:nth-of-type(4) {
+    left: calc(50% + (var(--ui-layout-gutter) / 2));
+    position: relative;
+  }
+
   .ui-layout-column-4 {
     width: calc((var(--ui-layout-grid) * 4) +
            (var(--ui-layout-gutter) * 3));
