@@ -644,28 +644,6 @@ div label[for=ui-component-toggle__yearly] {
     padding-top: 2rem;
   }
 
-  /* ICON */
-
-  .ui-section-header--menu-icon { display: none; }
-
-  /* NAV */
-
-  .ui-section-header--nav {
-    background-color: transparent;
-    font-size: var(--ui-typography-p);
-    box-shadow: none;
-    flex-direction: row;
-    opacity: 1;
-    padding: 0;
-    position: static;
-    visibility: visible;
-  }
-  
-  .ui-section-header--nav-link {
-    font-size: var(--ui-typography-p);
-    padding: 0;
-  }
-
   /*------------------------------------------------------------
   |
   | HERO
