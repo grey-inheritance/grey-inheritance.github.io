@@ -921,7 +921,7 @@ div label[for=ui-component-toggle__yearly] {
 
   .ui-layout-grid-4 { grid-template-columns: repeat(4, 1fr); }
 
-  .ui-layout-grid-4 div:nth-of-type(3) { position: static; }
+  .ui-layout-grid-4 div:nth-of-type(4) { position: static; }
 
   /*------------------------------------------------------------
   SECTION
