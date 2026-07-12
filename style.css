@@ -431,7 +431,6 @@ div label[for=ui-component-toggle__yearly] {
   opacity: 0;
   padding: 7.375rem var(--ui-layout-container) 5rem;
   position: absolute;
-  right: 0;
   top: -1rem;
   transition: all 250ms cubic-bezier(.785, .135, .15, .86);
   visibility: hidden;
@@ -439,6 +438,7 @@ div label[for=ui-component-toggle__yearly] {
 
 #ui-section-header--menu-id:checked ~
 .ui-section-header--nav {
+  font-size: var(--ui-typography-h3);
   opacity: 1;
   top: 0;
   visibility: visible;
@@ -647,6 +647,7 @@ div label[for=ui-component-toggle__yearly] {
 
   .ui-section-header--nav {
     background-color: transparent;
+    font-size: var(--ui-typography-p);
     box-shadow: none;
     flex-direction: row;
     opacity: 1;
