@@ -425,11 +425,10 @@ div label[for=ui-component-toggle__yearly] {
 .ui-section-header--nav {
   background-color: var(--ui-color-background-primary);
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.05);
-  flex-direction: column;
   gap: var(--ui-gap-header);
   left: 0;
   opacity: 0;
-  padding: 2rem var(--ui-layout-container) 5rem;
+  padding: 7.265rem 5rem 5rem;
   position: absolute;
   top: -1rem;
   transition: all 250ms cubic-bezier(.785, .135, .15, .86);
