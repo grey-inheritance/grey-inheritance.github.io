@@ -375,7 +375,9 @@ div label[for=ui-component-toggle__yearly] {
 }
 
 .ui-section-header h2 {
-  text-align:left;
+  text-align: left;
+  align-items: left;
+  justify-content: left;
 }
 
 .ui-section-header__layout { justify-content: space-between; }
