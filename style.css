@@ -374,7 +374,7 @@ div label[for=ui-component-toggle__yearly] {
   padding-top: 1.25rem;
 }
 
-.ui-section-header h2 {
+.ui-section-header h2, h3, h4 {
   text-align: left;
   align-items: left;
   justify-content: left;
