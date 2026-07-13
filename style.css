@@ -499,6 +499,7 @@ div label[for=ui-component-toggle__yearly] {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 15px;
+  position:absolute;
 }
 
 .ui-map a {
