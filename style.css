@@ -498,8 +498,8 @@ div label[for=ui-component-toggle__yearly] {
 .ui-section-close__layout img {
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 15px;
   position:absolute;
+  max-width:100%;
 }
 
 .ui-map a {
