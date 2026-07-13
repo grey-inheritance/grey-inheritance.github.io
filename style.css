@@ -495,6 +495,11 @@ div label[for=ui-component-toggle__yearly] {
   row-gap: var(--ui-typography-margin-body);
 }
 
+.ui-section-close__layout img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*--------------------------------------------------------------
 |
 | 7.9 FOOTER
