@@ -500,6 +500,10 @@ div label[for=ui-component-toggle__yearly] {
   margin-right: auto;
 }
 
+.ui-map {
+  background-color:transparent;
+}
+
 /*--------------------------------------------------------------
 |
 | 7.9 FOOTER
