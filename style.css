@@ -455,6 +455,10 @@ div label[for=ui-component-toggle__yearly] {
   text-decoration: none;
 }
 
+.ui-section-header--nav-link a {
+  display: block;
+}
+
 /*--------------------------------------------------------------
 |
 | 7.4 FEATURE
@@ -500,14 +504,21 @@ div label[for=ui-component-toggle__yearly] {
   margin-right: auto;
 }
 
+.ui-map {
+  position: relative;
+}
+
 .ui-map a {
-  position:absolute;
   z-index:2;
   color: #db2637;
   font-size: 12px;
   font-style:none;
   text-decoration: none;
   -webkit-text-stroke: 2px black;
+}
+
+.ui-map--city, .ui-map--loc {
+  position:absolute;
 }
 
 .ui-map--city a {
