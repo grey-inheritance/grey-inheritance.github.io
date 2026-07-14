@@ -477,6 +477,31 @@ div label[for=ui-component-toggle__yearly] {
 
 .ui-component-card--feature-title { margin-bottom: .5rem; }
 
+
+
+/*--------------------------------------------------------------
+|
+| 7.5 CHARACTER PAGES
+|
+--------------------------------------------------------------*/
+
+.ui-section-feature-char {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.ui-section-feature-char__layout { row-gap: var(--ui-gap-card); }
+
+/* CARD */
+
+.ui-component-card--feature-char { text-align: justify; }
+
+.ui-component-card--feature-char-content { padding: 2.25rem 1.5rem; }
+
+.ui-component-card--feature-char-title { margin-bottom: .5rem; }
+
+.ui-component-card--feature-char img { max-width:250px; float: right; padding: 1.5rem; }
+
 /*--------------------------------------------------------------
 |
 | 7.8 CLOSE
