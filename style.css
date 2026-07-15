@@ -506,6 +506,7 @@ div label[for=ui-component-toggle__yearly] {
   float: right; 
   padding: 1.5rem; 
   border: .0625rem solid var(--ui-color-border);
+  border-radius: var(--ui-radius-card);
   margin: 20px;
 }
 
