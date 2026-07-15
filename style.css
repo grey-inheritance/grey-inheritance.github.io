@@ -518,8 +518,6 @@ blockquote::before {
   content: "❝";
   font-size:5em;
   position:absolute;
-  margin-top:0px;
-  margin-left:0px;
   padding:0px;
   line-height:-1rem;
   color:var(--ui-color-border);
