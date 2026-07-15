@@ -534,7 +534,7 @@ blockquote>* {
   margin:1em 0;
 }
 
-.spoiler__icon { transition: transform 0.3s; }
+.spoiler__icon { transition: transform 0.3s; padding-left:20px; }
 .spoiler--open .spoiler__icon { transform:rotate(90deg); }
 
 .spoiler__title-bar {
