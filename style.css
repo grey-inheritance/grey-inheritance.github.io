@@ -427,6 +427,7 @@ div label[for=ui-component-toggle__yearly] {
 .ui-section-header--nav {
   background-color: var(--ui-color-background-primary);
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.05);
+  height:100%;
   gap: var(--ui-gap-header);
   right: 0;
   opacity: 0;
@@ -455,6 +456,7 @@ div label[for=ui-component-toggle__yearly] {
 .ui-section-header--nav-link a {
   display: block;
   width:100%;
+  text-indent: 20px;
 }
 
 /*--------------------------------------------------------------
