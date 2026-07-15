@@ -507,6 +507,20 @@ div label[for=ui-component-toggle__yearly] {
   border: .0625rem solid var(--ui-color-border); 
 }
 
+blockquote::before {
+  content: "❝";
+  font-size:5em;
+  position:absolute;
+  color:var(--ui-color-border);
+}
+
+hr { 
+  border:none;
+  height:1px;
+  background-color:var(--ui-color-border);
+  width:100%;
+}
+
 table { 
   width: 100%; 
   table-layout: auto; 
