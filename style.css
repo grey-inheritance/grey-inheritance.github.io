@@ -536,6 +536,7 @@ blockquote>* {
 
 .spoiler__icon { transition: transform 0.3s; padding-left:20px; }
 .spoiler--open .spoiler__icon { transform:rotate(90deg); }
+.spoiler--open .spoiler__content-wrap { grid-template-rows: 1fr; }
 
 .spoiler__title-bar {
   display:flex;
@@ -546,15 +547,13 @@ blockquote>* {
   cursor:pointer;
 }
 .spoiler__title { font-weight:bold; }
-.spoiler__content { padding: 0 5px; }
+.spoiler__content { padding: 0 5px; overflow: hidden; }
 
 .spoiler__content-wrap {
   display:grid;
-  grid-template-rows:0fr;
+  grid-template-rows: 0fr;
   transition: grid-template-rows 0.3s ease-out;
 }
-
-.spoiler--open .spoiler__content-wrap { grid-template-rows:1fr; }
   
 hr { 
   border:none;
