@@ -167,7 +167,8 @@ h2,
 h4 { color: var(--ui-color-typography-heading); }
 
 h1,
-h2 { margin-bottom: var(--ui-typography-margin-heading); }
+h2,
+h3 { margin-bottom: var(--ui-typography-margin-heading); }
 
 h1 {
   font-size: var(--ui-typography-h1);
