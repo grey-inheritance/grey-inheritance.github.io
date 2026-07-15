@@ -517,8 +517,8 @@ blockquote::before {
   content: "❝";
   font-size:5em;
   position:absolute;
-  padding-left:0px;
-  padding-top:var(--ui-typography-p);
+  padding-left:-10px;
+  padding-top:calc((1.5)*var(--ui-typography-p));
   z-index:-1;
   margin-top:calc((-2.5)*var(--ui-typography-p));
   color:var(--ui-color-border);
