@@ -518,7 +518,7 @@ blockquote::before {
   content: "❝";
   font-size:5em;
   position:absolute;
-  margin-top:-16%;
+  margin-top:-10%;
   margin-left:0px;
   color:var(--ui-color-border);
 }
@@ -529,7 +529,7 @@ blockquote>* {
 }
 
 .spoiler {
-  filter: blur(5px);
+  filter: blur(4px);
   cursor: pointer;
   transition: filter 0.3s ease;
 }
