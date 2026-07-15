@@ -521,7 +521,6 @@ blockquote::before {
   padding:0px;
   z-index:-1;
   margin-top:calc((-2)*var(--ui-typography-p));
-  margin-left:0px;
   color:var(--ui-color-border);
 }
 
