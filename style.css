@@ -531,7 +531,7 @@ blockquote>* {
 }
 
 .spoiler {
-  filter: blur(4px);
+  filter: blur(3px);
   cursor: pointer;
   transition: filter 0.3s ease;
 }
