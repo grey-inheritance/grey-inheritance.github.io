@@ -519,7 +519,7 @@ blockquote::before {
   font-size:5em;
   position:absolute;
   padding:0px;
-  margin-top:calc((-1)*var(--ui-typography-h1));
+  margin-top:calc((-1.5)*var(--ui-typography-p));
   color:var(--ui-color-border);
 }
 
