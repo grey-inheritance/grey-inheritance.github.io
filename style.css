@@ -512,15 +512,15 @@ div label[for=ui-component-toggle__yearly] {
 
 .ui-component-card--feature-char-pic img { margin-bottom:20px; padding:0px; border: .0625rem solid var(--ui-color-border); }
 
-blockquote { margin-left:0.2rem; }
-blockquote p { margin-left:3rem; }
+blockquote { margin-left:0.9rem; }
 blockquote::before {
   content: "❝";
   font-size:5em;
   position:absolute;
-  padding:0px;
+  padding-left:0px;
+  padding-top:var(--ui-typography-p);
   z-index:-1;
-  margin-top:calc((-2)*var(--ui-typography-p));
+  margin-top:calc((-2.5)*var(--ui-typography-p));
   color:var(--ui-color-border);
 }
 
