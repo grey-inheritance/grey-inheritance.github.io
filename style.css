@@ -502,7 +502,7 @@ div label[for=ui-component-toggle__yearly] {
 .ui-component-card--feature-char-title { margin-bottom: .5rem; }
 
 .ui-component-card--feature-char-pic { 
-  width: 40%; 
+  width: 35%; 
   float: right; 
   padding: 1.5rem; 
   border: .0625rem solid var(--ui-color-border);
@@ -510,18 +510,16 @@ div label[for=ui-component-toggle__yearly] {
   margin: 20px;
 }
 
-
 .ui-component-card--feature-char-pic img { margin-bottom:20px; padding:0px; border: .0625rem solid var(--ui-color-border); }
 
 blockquote { margin-left:0.9rem; }
 
-blockquote::after {
+blockquote::before {
   content: "❝";
   font-size:5em;
   position:absolute;
   color:var(--ui-color-border);
-  margin-top:-50px;
-  margin-left:-200px;
+  z-index:2;
 }
 
 hr { 
