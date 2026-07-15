@@ -502,15 +502,15 @@ div label[for=ui-component-toggle__yearly] {
 .ui-component-card--feature-char-title { margin-bottom: .5rem; }
 
 .ui-component-card--feature-char-pic { 
-  width:250px; 
+  width: 30%; 
   float: right; 
   padding: 1.5rem; 
   border: .0625rem solid var(--ui-color-border);
-  margin:20px;
+  margin: 20px;
 }
 
 
-.ui-component-card--feature-char-pic img { margin-bottom:20px; padding:0px; border-color:var(--ui-color-border); }
+.ui-component-card--feature-char-pic img { margin-bottom:20px; padding:0px; border:1px solid var(--ui-color-border); }
 
 blockquote { margin-left:0.8rem; }
 
@@ -519,8 +519,8 @@ blockquote::after {
   font-size:5em;
   position:absolute;
   color:var(--ui-color-border);
-  margin-top:0px;
-  margin-left:0px;
+  line-height:0px;
+  margin-left:-100px;
 }
 
 hr { 
@@ -535,13 +535,13 @@ table {
 }
 td { 
   width: fit-content; 
-  font-size: 0.7rem; 
+  font-size: 0.9rem; 
   border: .0625rem solid var(--ui-color-border);
   margin:0;
   padding:2px;
 }
 th { 
-  font-size:0.8rem;
+  font-size:1rem;
   background-color:var(--ui-color-border);
   border: .0625rem solid var(--ui-color-border); 
   margin:0;
