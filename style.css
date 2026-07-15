@@ -191,8 +191,6 @@ ul { margin-bottom: var(--ui-typography-margin-body); }
 p:last-child,
 ul:last-child { margin-bottom: 0; }
 
-ul { padding-left: 0; }
-
 strong { font-weight: 700; }
 
 small { font-size: var(--ui-typography-s); }
