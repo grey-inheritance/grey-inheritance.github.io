@@ -519,8 +519,8 @@ blockquote::after {
   font-size:5em;
   position:absolute;
   color:var(--ui-color-border);
-  top:0px;
-  left:0px;
+  margin-top:0px;
+  margin-left:0px;
 }
 
 hr { 
