@@ -534,6 +534,9 @@ blockquote>* {
   margin:1em 0;
 }
 
+.spoiler__icon { transition: transform 0.3s; }
+.spoiler--open .spoiler__icon { transform:rotate(90deg); }
+
 .spoiler__title-bar {
   display:flex;
   align-items:center;
@@ -550,6 +553,7 @@ blockquote>* {
   grid-template-rows:0fr;
   transition: grid-template-rows 0.3s ease-out;
 }
+
 .spoiler--open .spoiler__content-wrap { grid-template-rows:1fr; }
   
 hr { 
