@@ -520,7 +520,7 @@ blockquote::before {
   position:absolute;
   margin-top:0px;
   margin-left:0px;
-  vertical-align:sup;
+  vertical-align:top;
   color:var(--ui-color-border);
 }
 
