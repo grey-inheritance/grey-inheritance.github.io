@@ -512,7 +512,7 @@ div label[for=ui-component-toggle__yearly] {
 
 .ui-component-card--feature-char-pic img { margin-bottom:20px; padding:0px; border:1px solid var(--ui-color-border); }
 
-blockquote { margin-left:0.8rem; }
+blockquote { margin-left:0.9rem; }
 
 blockquote::after {
   content: "❝";
