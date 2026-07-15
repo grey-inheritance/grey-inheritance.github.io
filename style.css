@@ -530,6 +530,17 @@ blockquote>* {
   z-index: 2;
 }
 
+.spoiler {
+  filter: blur(5px);
+  cursor: pointer;
+  transition: filter 0.3s ease;
+}
+
+.spoiler:hover,
+.spoiler:focus {
+  filter: blur(0);
+}
+
 hr { 
   border:none;
   height:1px;
