@@ -520,7 +520,7 @@ blockquote::before {
   padding-top:calc((1.5)*var(--ui-typography-p));
   z-index:-1;
   margin-top:calc((-3.5)*var(--ui-typography-p));
-  margin-left:-2rem;
+  margin-left:-1.5rem;
   color:var(--ui-color-border);
 }
 
@@ -529,15 +529,25 @@ blockquote>* {
   z-index: 2;
 }
 
-.spoiler {
-  filter: blur(3px);
+.spoiler::before {
+  content: "Background +";
+  display:block;
+  width:60%;
+  background-color: var(--ui-color-border);
   cursor: pointer;
+}
+
+
+.spoiler {
+  filter: blur(1px);
+  height:0px;
   transition: filter 0.3s ease;
 }
 
 .spoiler:hover,
 .spoiler:focus {
   filter: blur(0);
+  height:auto;
 }
 
 hr { 
