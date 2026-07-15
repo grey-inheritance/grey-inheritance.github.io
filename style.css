@@ -517,11 +517,10 @@ blockquote { margin-left:0.9rem; }
 blockquote::before {
   content: "❝";
   font-size:5em;
-  position:absolute;
+  position:relative;
   padding:0px;
   z-index:-1;
   margin-top:calc((-2)*var(--ui-typography-p));
-  margin-left:0px;
   color:var(--ui-color-border);
 }
 
