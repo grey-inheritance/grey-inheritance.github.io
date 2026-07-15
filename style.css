@@ -548,6 +548,7 @@ blockquote>* {
 .spoiler__content-wrap {
   display:grid;
   grid-template-rows:0fr;
+  transition: grid-template-rows 0.3s ease-out;
 }
 .spoiler--open .spoiler__content-wrap { grid-template-rows:1fr; }
   
