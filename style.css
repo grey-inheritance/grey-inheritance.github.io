@@ -520,7 +520,7 @@ blockquote::before {
   padding-top:calc((1.5)*var(--ui-typography-p));
   z-index:-1;
   margin-top:calc((-3.5)*var(--ui-typography-p));
-  margin-left:0rem;
+  margin-left:-1rem;
   color:var(--ui-color-border);
 }
 
