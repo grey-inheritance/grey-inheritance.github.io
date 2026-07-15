@@ -522,6 +522,7 @@ blockquote::before {
   margin-left:0px;
   vertical-align: sup;
   color:var(--ui-color-border);
+  background-color:#000000;
 }
 
 blockquote>* {
