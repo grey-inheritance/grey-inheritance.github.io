@@ -507,9 +507,19 @@ div label[for=ui-component-toggle__yearly] {
   border: .0625rem solid var(--ui-color-border); 
 }
 
-table { wdith: 100%; table-layout: auto; }
-td { width: fit-content; font-size: 0.7rem; }
-th { font-size:0.8rem; }
+table { 
+  width: 100%; 
+  table-layout: auto; 
+}
+td { 
+  width: fit-content; 
+  font-size: 0.7rem; 
+  border: .0625rem solid var(--ui-color-border); 
+}
+th { 
+  font-size:0.8rem;
+  border: .0625rem solid var(--ui-color-border); 
+}
 
 /*--------------------------------------------------------------
 |
