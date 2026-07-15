@@ -502,8 +502,9 @@ div label[for=ui-component-toggle__yearly] {
 
 .ui-component-card--feature-char-pic { width:250px; float: right; padding: 1.5rem; }
 
-table { wdith:100%; }
-td { width: fit-content; }
+table { wdith: 100%; table-layout: auto; }
+td { width: fit-content; font-size: 0.7rem; }
+th { font-size:1rem; }
 
 /*--------------------------------------------------------------
 |
