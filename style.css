@@ -500,7 +500,7 @@ div label[for=ui-component-toggle__yearly] {
 
 .ui-component-card--feature-char-title { margin-bottom: .5rem; }
 
-.ui-component-card--feature-char img { max-width:250px; float: right; padding: 1.5rem; }
+.ui-component-card--feature-char-pic { width:250px; float: right; padding: 1.5rem; }
 
 /*--------------------------------------------------------------
 |
