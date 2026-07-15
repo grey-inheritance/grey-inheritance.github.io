@@ -540,12 +540,16 @@ blockquote>* {
 
 .spoiler {
   filter: blur(1px);
-  height:0px;
   transition: filter 0.3s ease;
 }
 
+.spoiler p {
+  display:block;
+  height:0px;
+}
+
 .spoiler:hover,
-.spoiler:focus {
+.spoiler:focus, .spoiler:focus p {
   filter: blur(0);
   height:auto;
 }
