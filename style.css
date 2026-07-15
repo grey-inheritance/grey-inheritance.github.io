@@ -504,14 +504,16 @@ div label[for=ui-component-toggle__yearly] {
   width:250px; 
   float: right; 
   padding: 1.5rem; 
-  border: .0625rem solid var(--ui-color-border); 
+  border: .0625rem solid var(--ui-color-border);
+  margin:10px;
 }
 
-blockquote::before {
+blockquote::after {
   content: "❝";
   font-size:5em;
   position:absolute;
   color:var(--ui-color-border);
+  
 }
 
 hr { 
@@ -528,11 +530,16 @@ table {
 td { 
   width: fit-content; 
   font-size: 0.7rem; 
-  border: .0625rem solid var(--ui-color-border); 
+  border: .0625rem solid var(--ui-color-border);
+  margin:0;
+  padding:2px;
 }
 th { 
   font-size:0.8rem;
+  background-color:var(--ui-color-border);
   border: .0625rem solid var(--ui-color-border); 
+  margin:0;
+  padding:2px;
 }
 
 /*--------------------------------------------------------------
