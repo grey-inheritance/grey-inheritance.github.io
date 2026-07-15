@@ -517,6 +517,7 @@ blockquote::after {
 }
 
 hr { 
+  position:relative;
   border:none;
   height:1px;
   background-color:var(--ui-color-border);
