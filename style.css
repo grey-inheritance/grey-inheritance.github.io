@@ -518,15 +518,13 @@ blockquote::after {
   position:absolute;
   color:var(--ui-color-border);
   margin-top:-100%;
-  margin-left:-100%;
+  margin-left:0px;
 }
 
 hr { 
-  position:float;
   border:none;
   height:1px;
   background-color:var(--ui-color-border);
-  width:100%;
 }
 
 table { 
