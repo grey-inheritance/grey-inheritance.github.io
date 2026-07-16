@@ -186,7 +186,7 @@ h4 {
 }
 
 p,
-ul { margin-bottom: calc((-0.8)*var(--ui-typography-margin-body)); }
+ul { margin-bottom: calc((0.8)*var(--ui-typography-margin-heading)); }
 
 p:last-child,
 ul:last-child { margin-bottom: 0; }
