@@ -326,6 +326,18 @@ div label[for=ui-component-toggle__yearly] {
   width: 100%;
 }
 
+.ui-component-card-npc {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--ui-gap-cta);
+  align-items: center;
+  justify-content: center;
+  border: .0625rem solid var(--ui-color-border);
+  border-radius: var(--ui-radius-card);
+  overflow: hidden;
+  width: 100%;
+}
+
 /*--------------------------------------------------------------
 |
 | 6.5 LIST
