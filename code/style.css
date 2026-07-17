@@ -338,6 +338,9 @@ div label[for=ui-component-toggle__yearly] {
   width: 100%;
 }
 
+
+.ui-component-card--feature-npc { flex:1; }
+
 /*--------------------------------------------------------------
 |
 | 6.5 LIST
