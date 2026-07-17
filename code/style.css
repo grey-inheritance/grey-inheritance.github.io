@@ -534,8 +534,8 @@ blockquote>* {
   margin:1em 0;
 }
 
-.spoiler__icon { transition: transform 0.3s; padding-left:20px; }
-.spoiler--open .spoiler__icon { transform:rotate(90deg); }
+.spoiler__icon { transition: transform 0.3s; padding-left:20px; font-size:var(--ui-typography-h4); }
+.spoiler--open .spoiler__icon { transform:rotate(90deg) translate(-50%); }
 .spoiler--open .spoiler__content-wrap { grid-template-rows: 1fr; }
 
 .spoiler__title-bar {
@@ -546,7 +546,7 @@ blockquote>* {
   background-color:var(--ui-color-border);
   cursor:pointer;
 }
-.spoiler__title { font-weight:bold; }
+.spoiler__title { font-weight:bold; font-size:var(--ui-typography-h4); }
 .spoiler__content { padding: 0 5px; overflow: hidden; }
 
 .spoiler__content-wrap {
