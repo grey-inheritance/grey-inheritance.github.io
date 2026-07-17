@@ -329,6 +329,7 @@ div label[for=ui-component-toggle__yearly] {
 .ui-component-card-npc-cont {
   border: .0625rem solid var(--ui-color-border);
   border-radius: var(--ui-radius-card);
+  paddin:2rem;
   overflow: hidden;
   width: 100%;
 }
@@ -343,7 +344,7 @@ div label[for=ui-component-toggle__yearly] {
   width: 100%;
 }
 
-.ui-component-card--feature-npc { flex:1; }
+.ui-component-card--feature-npc { flex:1; min-width:25%; }
 
 /*--------------------------------------------------------------
 |
