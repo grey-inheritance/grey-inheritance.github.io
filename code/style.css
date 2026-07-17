@@ -338,7 +338,6 @@ div label[for=ui-component-toggle__yearly] {
   display: flex;
   flex-direction: row;
   row-gap: var(--ui-gap-cta);
-  padding: 10px 0;
   margin: 10px;
   align-items: center;
   justify-content: center;
