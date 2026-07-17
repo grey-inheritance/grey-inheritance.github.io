@@ -68,28 +68,18 @@
                   <td>—</td>
                 </tr>
               </table>
-              <table>
-                <tr>
-                  <th>Pronouns</th>
-                  <th>Alignment</th>
-                </tr>
-                <tr>
-                  <td>—</td>
-                  <td>—</td>
-                </tr>
-              </table>
-              <table>
-                <tr>
-                  <th>Size</th>
-                  <th>Height</th>
-                  <th>Weight</th>
-                <tr>
+                <table>
+                  <tr>
+                    <th>Pronouns</th>
+                    <th>Size</th>
+                    <th>Status</th>
+                  </tr>
                   <tr>
                     <td>—</td>
                     <td>—</td>
                     <td>—</td>
                   </tr>
-              </table>
+                </table>
               </div>
               <div class="ui-component-card--feature-content">
                 <h2 class="ui-component-card--feature-title">Name</h2>
