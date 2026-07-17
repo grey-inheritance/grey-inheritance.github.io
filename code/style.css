@@ -533,7 +533,7 @@ blockquote>* {
 }
 
 .spoiler__icon { transition: transform 0.3s; padding-left:20px; font-size:var(--ui-typography-h4); }
-.spoiler--open .spoiler__icon { transform:rotate(90deg) translate(-25%, -25%); }
+.spoiler--open .spoiler__icon { transform:rotate(90deg) translate(-30%, -25%); }
 .spoiler--open .spoiler__content-wrap { grid-template-rows: 1fr; }
 
 .spoiler__title-bar {
