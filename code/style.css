@@ -501,9 +501,7 @@ div label[for=ui-component-toggle__yearly] {
 
 .ui-component-card--feature-char-title { margin-bottom: .5rem; }
 
-.ui-component-card--feature-char-pic { 
-  width: 35%; 
-  float: right; 
+.ui-component-card--feature-char-pic {
   padding: 1.5rem; 
   border: .0625rem solid var(--ui-color-border);
   border-radius: var(--ui-radius-card);
@@ -793,6 +791,11 @@ th {
 
   .ui-section-hero .ui-component-cta { align-items: start; }
 
+  .ui-component-card--feature-char-pic { 
+    width: 100%; 
+    float: center; 
+  }
+
   /*------------------------------------------------------------
   |
   | CUSTOMER
@@ -920,6 +923,11 @@ th {
     justify-content: start;
   }
 
+  .ui-component-card--feature-char-pic { 
+    width: 35%; 
+    float: right; 
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -1020,6 +1028,11 @@ th {
   .ui-section-hero {
     padding-bottom: 7.5rem;
     padding-top: 7.5rem;
+  }
+
+  .ui-component-card--feature-char-pic { 
+    width: 35%; 
+    float: right; 
   }
 
   /*------------------------------------------------------------
