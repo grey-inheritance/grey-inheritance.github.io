@@ -587,14 +587,14 @@ td {
   font-size: 0.9rem; 
   border: .0625rem solid var(--ui-color-border);
   margin:0;
-  padding:2px;
+  padding:2px 5px;
 }
 th { 
   font-size:1rem;
   background-color:var(--ui-color-border);
   border: .0625rem solid var(--ui-color-border); 
   margin:0;
-  padding:2px;
+  padding:2px 5px;
 }
 
 /*--------------------------------------------------------------
