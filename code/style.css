@@ -817,6 +817,11 @@ th {
     float: center; 
   }
 
+  .ui-component-card-npc {
+    flex-direction: column;
+    border: .0625rem solid var(--ui-color-border);
+  }
+
   /*------------------------------------------------------------
   |
   | CUSTOMER
@@ -947,6 +952,11 @@ th {
   .ui-component-card--feature-char-pic { 
     width: 35%; 
     float: right; 
+  }
+
+  .ui-component-card-npc {
+    flex-direction: row;
+    border: none;
   }
 
 }
