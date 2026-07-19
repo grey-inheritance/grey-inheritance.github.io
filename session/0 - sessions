@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="uisual" content="Made with Uisual (uisual.com)">
+    <meta name="author" content="#">
+    <meta name="description" content="#">
+    <meta name="referrer" content="unsafe-url">
+    <meta name="robots" content="index, follow">
+    <!-- SPEED -->
+    <link rel="preconnect" href="https://res.cloudinary.com">
+    <link rel="dns-prefetch" href="https://res.cloudinary.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <!-- LINK -->
+    <link rel="me" href="#">
+    <link rel="canonical" href="#">
+    <link rel="icon" type="image/png" href="images/icon.png" sizes="48x48">
+    <!-- TITLE -->
+    <title>GREY INHERITANCE</title>
+    <!-- PERFORMANCE -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+    <link rel="preload" as="style" href="../code/style.css">
+    <link rel="stylesheet" href="../code/style.css">
+    <script src="../code/index.js" defer></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header role="banner" class="ui-section-header">
+      <div class="ui-layout-container">
+        <div class="ui-section-header__layout ui-layout-flex">
+             <a href="/" style="text-decoration:none;"><h3><span style="font-size:1.5rem;">♣ </span>&nbsp; Grey Inheritance</h3></a>
+          <!-- HAMBURGER -->
+          <input type="checkbox" id="ui-section-header--menu-id">
+          <label for="ui-section-header--menu-id" class="ui-section-header--menu-icon"></label>
+          <!-- MENU -->
+          <nav role="navigation" class="ui-section-header--nav">
+            <h3>Session Summary</h3>
+            <a href="/001">Session 001</a>
+            <br>
+            <a href="/002">Session 002</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main role="main">
+      <section class="ui-section-feature-char">
+        <div class="ui-layout-container">
+          <div class="ui-section-feature-char__layout ui-layout-grid">
+            <div class="ui-component-card ui-component-card--feature-char">
+              <div class="ui-component-card--feature-content">
+                <h2 class="ui-component-card--feature-title">Session 001</h2>
+                <hr>
+                <blockquote>
+                  It smells like shit and piss in here.<br>
+                  <small><em>— Inyx, utilizing the vocab Zee's been teaching her.</em></small>
+                </blockquote>
+                <h4>June 27th, 2026</h4>
+                <p>Sun Day is fast approaching in Vallaki, and two unlucky pairs get ready to be marked as Grey Hearts.</p>
+                <hr>
+                <div class="spoiler">
+                  <div class="spoiler__title-bar">
+                    <span class="spoiler__title">&nbsp; Cel's Notes</span>
+                    <span class="spoiler__icon"> ❯ </span>
+                  </div>
+                  <div class="spoiler__content-wrap">
+                    <div class="spoiler__content">
+                      <p>tba</p>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="spoiler">
+                  <div class="spoiler__title-bar">
+                    <span class="spoiler__title">&nbsp; Clary's Notes</span>
+                    <span class="spoiler__icon"> ❯ </span>
+                  </div>
+                  <div class="spoiler__content-wrap">
+                    <div class="spoiler__content">
+                      <p>tba</p>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="spoiler">
+                  <div class="spoiler__title-bar">
+                    <span class="spoiler__title">&nbsp; Derrick's Notes</span>
+                    <span class="spoiler__icon"> ❯ </span>
+                  </div>
+                  <div class="spoiler__content-wrap">
+                    <div class="spoiler__content">
+                      <p>tba</p>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="spoiler">
+                  <div class="spoiler__title-bar">
+                    <span class="spoiler__title">&nbsp; Des' Notes</span>
+                    <span class="spoiler__icon"> ❯ </span>
+                  </div>
+                  <div class="spoiler__content-wrap">
+                    <div class="spoiler__content">
+                      <p>tba</p>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <h3>NPCs Present</h3>
+                <hr>
+                <p><b>tba.</b>&nbsp; tba.</p>
+                <p><b>tba.</b>&nbsp; tba</p>
+                <p><b>tba.</b>&nbsp; tba.</p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer role="contentinfo" class="ui-section-footer">
+      <div class="ui-layout-container">
+        <div class="ui-section-footer__layout ui-layout-flex">
+          <!-- COPYRIGHT -->
+          <p class="ui-section-footer--copyright ui-text-note"><small>&copy; GREY INHERITANCE</small></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
