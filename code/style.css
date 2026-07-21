@@ -526,7 +526,7 @@ div label[for=ui-component-toggle__yearly] {
   padding: 1.5rem; 
   border: .0625rem solid var(--ui-color-border);
   border-radius: var(--ui-radius-card);
-  margin: 20px;
+  margin: 20px 0 20px 20px;
 }
 
 .ui-component-card--feature-char-pic img { margin-bottom:20px; padding:0px; border: .0625rem solid var(--ui-color-border); }
