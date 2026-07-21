@@ -566,7 +566,7 @@ blockquote>* {
   cursor:pointer;
 }
 .spoiler__title { font-weight:bold; font-size:var(--ui-typography-h4); }
-.spoiler__content { padding: 0 5px; overflow: hidden; }
+.spoiler__content { padding: 0 5px; overflow: hidden; color:#888888; font-style:italic; }
 
 .spoiler__content-wrap {
   display:grid;
