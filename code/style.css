@@ -461,6 +461,7 @@ div label[for=ui-component-toggle__yearly] {
 .ui-section-header--nav {
   font-size: var(--ui-typography-h3);
   opacity: 1;
+  z-index:3;
   top: 0;
   visibility: visible;
 }
