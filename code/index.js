@@ -9,11 +9,10 @@ document.body.addEventListener("click", (ev) => {
   spoiler.classList.toggle("spoiler--open")
 });
 
-// Fetch the "your-text-file.txt" file and inject it into the "text-container" div
+// CHARACTER BACKGROUNDS
 fetch('/bgs/sully.txt')
   .then(response => response.text())
   .then(data => {
       document.getElementById('sully_bg').innerText = data;
   })
   .catch(error => console.error('Error loading file:', error));
-

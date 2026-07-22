@@ -27,6 +27,8 @@
     <link rel="preload" as="style" href="../code/style.css">
     <link rel="stylesheet" href="../code/style.css">
     <script src="../code/index.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
   </head>
   <body>
     <!-- HEADER -->
@@ -78,7 +80,7 @@
                     <span class="spoiler__icon"> ❯ </span>
                   </div>
                   <div class="spoiler__content-wrap">
-                    <div class="spoiler__content">
+                    <div class="spoiler__content" id="cel_000">
                       <p>tba</p>
                     </div>
                   </div>
@@ -90,7 +92,7 @@
                     <span class="spoiler__icon"> ❯ </span>
                   </div>
                   <div class="spoiler__content-wrap">
-                    <div class="spoiler__content">
+                    <div class="spoiler__content" id="clary_000">
                       <p>tba</p>
                     </div>
                   </div>
@@ -102,7 +104,7 @@
                     <span class="spoiler__icon"> ❯ </span>
                   </div>
                   <div class="spoiler__content-wrap">
-                    <div class="spoiler__content">
+                    <div class="spoiler__content" id="derrick_000">
                       <p>tba</p>
                     </div>
                   </div>
@@ -114,7 +116,7 @@
                     <span class="spoiler__icon"> ❯ </span>
                   </div>
                   <div class="spoiler__content-wrap">
-                    <div class="spoiler__content">
+                    <div class="spoiler__content" id="des_000">
                       <p>tba</p>
                     </div>
                   </div>
