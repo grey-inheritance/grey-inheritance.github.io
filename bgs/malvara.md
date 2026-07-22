@@ -4,7 +4,7 @@
 - the Cain family derives a lineage of vampires who cultivated their heritage with pride and viewed themselves as caretakers of old rather than monsters
 - the multi-generational household originally resided in a secluded manor surrounded by lush countryside where elders would teach magic, folklore, & tradition
 - Malvara grew up on stories & theatre, thus developing a habit of viewing life as if it's a grand narrative
-- due to a newfond lack of success for others/the extended Cain family in the vampiric marriage market, Malvara believed she & her family might now be cursed due to her mother falling in love & bearing a child with a human man
+- due to a newfound lack of success for others/the extended Cain family in the vampiric marriage market, Malvara believed she & her family might now be cursed due to her mother falling in love & bearing a child with a human man
 - the family hears word of Barovia as a 'paradise held by __the first vampire__', and travels there as a means of introducing Malvara to more of their kind
 - they quickly realize Strahd is cruel & selfish, and their plans to settle down are abandoned immediately
 - Malvara's magical studies take a backseat as the family focuses on survival & finding a way out
