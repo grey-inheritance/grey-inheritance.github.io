@@ -20,6 +20,6 @@ fetch('/bgs/sully.txt')
 
 <script>
 $(function(){
-  $(".ui-section-header--nav").load("nav.html");
+  $("#hamburg_nav").load("../code/nav.html");
 });
 </script>
