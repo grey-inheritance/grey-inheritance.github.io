@@ -18,9 +18,8 @@ fetch('/bgs/sully.txt')
   .catch(error => console.error('Error loading file:', error));
 
 
-fetch('/code/nav.html')
-  .then(response => response.text())
-  .then(data => {
-      document.getElementById('hamburg_nav').innerHTML = data;
-  })
-  .catch(error => console.error('Error loading file:', error));
+<script>
+$(function(){
+  $(".ui-section-header--nav").load("nav.html");
+});
+</script>
