@@ -79,7 +79,7 @@
                     <span class="spoiler__icon"> ❯ </span>
                   </div>
                   <div class="spoiler__content-wrap">
-                    <div class="spoiler__content">
+                    <div class="spoiler__content" id="cel_000">
                       <p>tba</p>
                     </div>
                   </div>
@@ -91,7 +91,7 @@
                     <span class="spoiler__icon"> ❯ </span>
                   </div>
                   <div class="spoiler__content-wrap">
-                    <div class="spoiler__content">
+                    <div class="spoiler__content" id="clary_000">
                       <p>tba</p>
                     </div>
                   </div>
@@ -103,7 +103,7 @@
                     <span class="spoiler__icon"> ❯ </span>
                   </div>
                   <div class="spoiler__content-wrap">
-                    <div class="spoiler__content">
+                    <div class="spoiler__content" id="derrick_000">
                       <p>tba</p>
                     </div>
                   </div>
@@ -115,7 +115,7 @@
                     <span class="spoiler__icon"> ❯ </span>
                   </div>
                   <div class="spoiler__content-wrap">
-                    <div class="spoiler__content">
+                    <div class="spoiler__content" id="des_000">
                       <p>tba</p>
                     </div>
                   </div>
