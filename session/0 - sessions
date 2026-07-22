@@ -41,21 +41,7 @@
           <input type="checkbox" id="ui-section-header--menu-id">
           <label for="ui-section-header--menu-id" class="ui-section-header--menu-icon"></label>
           <!-- MENU -->
-          <nav role="navigation" class="ui-section-header--nav">
-            <h3>Session Summary</h3>
-            <a href="/001">Session 001</a>
-            <br>
-            <a href="/002">Session 002</a>
-            <br>
-            <a href="/003">Session 003</a>
-            <br>
-            <a href="/004">Session 004</a>
-            <br>
-            <a href="/005">Session 005</a>
-            <br>
-            <a href="/006">Session 006</a>
-            <br>
-            <a href="/007">Session 007</a>
+          <nav role="navigation" class="ui-section-header--nav" id="hamburg_nav">
           </nav>
         </div>
       </div>
