@@ -10,15 +10,10 @@ document.body.addEventListener("click", (ev) => {
 });
 
 // Fetch the "your-text-file.txt" file and inject it into the "text-container" div
-fetch('your-text-file.txt')
+fetch('/bgs/sully.txt')
   .then(response => response.text())
   .then(data => {
-      document.getElementById('text-container').innerText = data;
+      document.getElementById('sully_bg').innerText = data;
   })
   .catch(error => console.error('Error loading file:', error));
 
-// Character backgrounds
-(async () => {
-    const text = await (await fetch("/bgs/sully.txt")).text();
-    sully_bg.innerHTML = text;
-})();
