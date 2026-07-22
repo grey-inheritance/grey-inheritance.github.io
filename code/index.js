@@ -17,6 +17,6 @@ fetch('/bgs/sully.txt')
   })
   .catch(error => console.error('Error loading file:', error));
 
-$(function(){
+$(document).ready(function() {
   $("#hamburg_nav").load("../code/nav.html");
 });
