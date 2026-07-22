@@ -16,3 +16,9 @@ fetch('your-text-file.txt')
       document.getElementById('text-container').innerText = data;
   })
   .catch(error => console.error('Error loading file:', error));
+
+// Character backgrounds
+(async () => {
+    const text = await (await fetch("/bgs/sully.txt")).text();
+    sully_bg.innerHTML = text;
+})();
