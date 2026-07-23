@@ -407,6 +407,9 @@ div label[for=ui-component-toggle__yearly] {
   width:max-content;
   display:flex;
   justify-content: start!important;
+  float:left;
+  margin-left:0px;
+  padding-left:0px;
 }
 
 .ui-search-input {
