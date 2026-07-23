@@ -420,8 +420,6 @@ div label[for=ui-component-toggle__yearly] {
   z-index:2;
 }
 
-.ui-search-input::before { content:'⌕'; }
-
 /* HAMBURGER */
 
 #ui-section-header--menu-id { display: none; }
