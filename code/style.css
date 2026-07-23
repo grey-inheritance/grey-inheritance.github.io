@@ -409,10 +409,12 @@ div label[for=ui-component-toggle__yearly] {
   align-items: left;
   justify-content: left;
   float:left;
+  margin-left:0px;
+  padding-left:0px;
 }
 
 .ui-search-input {
-  padding: 5px;
+  padding: 5px 0;
   border-radius: 10px;
   border:1px solid var(--ui-color-border);
   background:var(--ui-color-background-secondary);
@@ -421,6 +423,16 @@ div label[for=ui-component-toggle__yearly] {
   outline:none;
   z-index:2;
 }
+
+
+.ui-search-input-typer {
+  background:var(--ui-color-background-secondary);
+  font-family:var(--ui-typography-typeface);
+  color:var(--ui-color-typography-heading);
+  outline:none;
+  border:none;
+}
+
 
 /* HAMBURGER */
 
