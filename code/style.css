@@ -403,7 +403,7 @@ div label[for=ui-component-toggle__yearly] {
 
 /* SEARCH BAR */
 
-.search {
+.ui-search-wrapper {
   width:max-content;
   display:flex;
   align-items:center;
