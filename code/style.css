@@ -402,6 +402,7 @@ div label[for=ui-component-toggle__yearly] {
 .ui-section-header--logo { z-index: 4; }
 
 /* SEARCH BAR */
+
 .search {
   width:max-content;
   display:flex;
@@ -415,6 +416,7 @@ div label[for=ui-component-toggle__yearly] {
   background:var(--ui-color-background-secondary);
   font-family:var(--ui-typography-typeface);
   color:var(--ui-color-typography-button};
+  outline:none;
 }
 
 /* HAMBURGER */
