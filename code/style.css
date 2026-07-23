@@ -229,6 +229,8 @@ svg {
 
 .ui-layout-flex { display: flex; }
 
+.ui-layout-flex2 { display: flex; align-items: center; }
+
 .ui-layout-grid { display: grid; }
 
 /*--------------------------------------------------------------
