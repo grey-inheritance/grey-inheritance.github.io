@@ -399,7 +399,7 @@ div label[for=ui-component-toggle__yearly] {
 
 /* LOGO */
 
-.ui-section-header--logo { z-index: 4; }
+.ui-section-header--logo { z-index: 1; }
 
 /* SEARCH BAR */
 
@@ -417,7 +417,10 @@ div label[for=ui-component-toggle__yearly] {
   font-family:var(--ui-typography-typeface);
   color:var(--ui-color-typography-button);
   outline:none;
+  z-index:2;
 }
+
+.ui-search-input::before { content:'⌕'; }
 
 /* HAMBURGER */
 
