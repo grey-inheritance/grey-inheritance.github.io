@@ -410,7 +410,7 @@ div label[for=ui-component-toggle__yearly] {
 }
 
 .ui-search-input {
-  padding: 0 5px;
+  padding: 0 0 2px 7px;
   border-radius: 10px;
   border:1px solid var(--ui-color-border);
   background:var(--ui-color-background-secondary);
