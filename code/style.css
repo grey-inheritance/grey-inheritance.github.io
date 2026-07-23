@@ -399,7 +399,23 @@ div label[for=ui-component-toggle__yearly] {
 
 /* LOGO */
 
-.ui-section-header--logo { z-index: 1; }
+.ui-section-header--logo { z-index: 4; }
+
+/* SEARCH BAR */
+.search {
+  width:max-content;
+  display:flex;
+  align-items:center;
+}
+
+.search-input {
+  padding: 5px;
+  border-radius: 10px;
+  border:1px solid var(--ui-color-border);
+  background:var(--ui-color-background-secondary);
+  font-family:var(--ui-typography-typeface);
+  color:var(--ui-color-typography-button};
+}
 
 /* HAMBURGER */
 
@@ -413,13 +429,12 @@ div label[for=ui-component-toggle__yearly] {
   padding-top: .25rem;
   position: relative;
   width: 1.125rem;
-  z-index: 3;
+  z-index:4;
 }
 
 .ui-section-header--menu-icon::before,
 .ui-section-header--menu-icon::after {
   background: var(--ui-color-brand);
-  z-index:
   content: "";
   height: .125rem;
   left: 0;
