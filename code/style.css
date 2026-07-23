@@ -428,6 +428,7 @@ div label[for=ui-component-toggle__yearly] {
   background:var(--ui-color-background-secondary);
   font-family:var(--ui-typography-typeface);
   color:var(--ui-color-typography-heading);
+  padding-bottom:2px;
   outline:none;
   border:none;
 }
