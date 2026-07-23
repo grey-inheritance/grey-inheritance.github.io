@@ -408,6 +408,7 @@ div label[for=ui-component-toggle__yearly] {
   display:flex;
   align-items: left;
   justify-content: left;
+  float:left;
 }
 
 .ui-search-input {
