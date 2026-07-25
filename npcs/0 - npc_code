@@ -52,7 +52,7 @@
           <div class="ui-section-feature-char__layout ui-layout-grid">
             <div class="ui-component-card ui-component-card--feature-char">
               <div class="ui-component-card--feature-char-pic">
-              <img src="images/characters/tba.png" alt="#" loading="lazy">
+              <img src="images/characters/tba.png" alt="#" loading="lazy">  
               <table>
                 <tr>
                   <th>Species</th>
@@ -77,16 +77,23 @@
                 </table>
               </div>
               <div class="ui-component-card--feature-content">
-                <h2 class="ui-component-card--feature-title">Name</h2>
+                <h2 class="ui-component-card--feature-title">Inyx</h2>
                 <hr>
-                <p>Short description.</p>
+                <blockquote>
+                  tba<br>
+                  <small><em>— Name, tba.</em></small>
+                </blockquote>
+                <p>tba.</p>
                 <h3>History</h3>
                 <hr>
-                <p>In-game events.</p>
+                <p>Info here.</p>
                 <h3>Relations</h3>
                 <hr>
+                <p>Info here.</p>
+                <h3>Outside of Party</h3>
                 <ul>
-                  <li>Known relations.</li>
+                  <li><b><a href="https://grey-inheritance.github.io/">Name.</b></a>&nbsp; Tba.</li>
+                  <li><b><a href="https://grey-inheritance.github.io/">Name.</b></a>&nbsp; Tba.</li>
                 </ul>
                 </p>
               </div>
