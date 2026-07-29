@@ -16,3 +16,7 @@ fetch('/bgs/sully.txt')
       document.getElementById('sully_bg').innerText = data;
   })
   .catch(error => console.error('Error loading file:', error));
+
+$(document).ready(function() {
+  $("#hamburg_nav").load("../code/nav.html");
+});

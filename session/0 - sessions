@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="uisual" content="Made with Uisual (uisual.com)">
-    <meta name="author" content="#">
-    <meta name="description" content="#">
     <meta name="referrer" content="unsafe-url">
     <meta name="robots" content="index, follow">
     <!-- SPEED -->
@@ -27,6 +25,7 @@
     <link rel="preload" as="style" href="../code/style.css">
     <link rel="stylesheet" href="../code/style.css">
     <script src="../code/index.js" defer></script>
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
     <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
   </head>
@@ -40,21 +39,7 @@
           <input type="checkbox" id="ui-section-header--menu-id">
           <label for="ui-section-header--menu-id" class="ui-section-header--menu-icon"></label>
           <!-- MENU -->
-          <nav role="navigation" class="ui-section-header--nav">
-            <h3>Session Summary</h3>
-            <a href="/001">Session 001</a>
-            <br>
-            <a href="/002">Session 002</a>
-            <br>
-            <a href="/003">Session 003</a>
-            <br>
-            <a href="/004">Session 004</a>
-            <br>
-            <a href="/005">Session 005</a>
-            <br>
-            <a href="/006">Session 006</a>
-            <br>
-            <a href="/007">Session 007</a>
+          <nav role="navigation" class="ui-section-header--nav" id="hamburg_nav">
           </nav>
         </div>
       </div>

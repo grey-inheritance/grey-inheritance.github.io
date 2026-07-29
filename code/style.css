@@ -401,6 +401,35 @@ div label[for=ui-component-toggle__yearly] {
 
 .ui-section-header--logo { z-index: 1; }
 
+/* SEARCH BAR */
+
+.ui-search-wrapper {
+  width:max-content;
+  display:flex;
+}
+
+.ui-search-input {
+  padding: 0 0 2px 7px;
+  border-radius: 10px;
+  border:1px solid var(--ui-color-border);
+  background:var(--ui-color-background-secondary);
+  font-family:var(--ui-typography-typeface);
+  color:var(--ui-color-typography-heading);
+  outline:none;
+  z-index:2;
+}
+
+
+.ui-search-input-typer {
+  background:var(--ui-color-background-secondary);
+  font-family:var(--ui-typography-typeface);
+  color:var(--ui-color-typography-heading);
+  padding-bottom:2px;
+  outline:none;
+  border:none;
+}
+
+
 /* HAMBURGER */
 
 #ui-section-header--menu-id { display: none; }
@@ -413,7 +442,7 @@ div label[for=ui-component-toggle__yearly] {
   padding-top: .25rem;
   position: relative;
   width: 1.125rem;
-  z-index: 1;
+  z-index:4;
 }
 
 .ui-section-header--menu-icon::before,
@@ -461,6 +490,7 @@ div label[for=ui-component-toggle__yearly] {
 .ui-section-header--nav {
   font-size: var(--ui-typography-h3);
   opacity: 1;
+  z-index:3;
   top: 0;
   visibility: visible;
 }
@@ -802,6 +832,8 @@ th {
     padding-top: 2rem;
   }
 
+  .blanker { width:0px; height:0px; display:none; }
+
   /*------------------------------------------------------------
   |
   | HERO
@@ -935,6 +967,8 @@ th {
   /*------------------------------------------------------------
   SECTION
   ------------------------------------------------------------*/
+
+  .blanker { width:30vw; }
 
   /*------------------------------------------------------------
   |

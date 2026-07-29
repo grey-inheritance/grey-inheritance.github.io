@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="uisual" content="Made with Uisual (uisual.com)">
-    <meta name="author" content="#">
-    <meta name="description" content="#">
     <meta name="referrer" content="unsafe-url">
     <meta name="robots" content="index, follow">
     <!-- SPEED -->
@@ -24,9 +22,12 @@
     <title>GREY INHERITANCE</title>
     <!-- PERFORMANCE -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
-    <link rel="preload" as="style" href="code/style.css">
-    <link rel="stylesheet" href="code/style.css">
-    <script src="/code/index.js" defer></script>
+    <link rel="preload" as="style" href="../code/style.css">
+    <link rel="stylesheet" href="../code/style.css">
+    <script src="../code/index.js" defer></script>
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
   </head>
   <body>
     <!-- HEADER -->
@@ -38,15 +39,7 @@
           <input type="checkbox" id="ui-section-header--menu-id">
           <label for="ui-section-header--menu-id" class="ui-section-header--menu-icon"></label>
           <!-- MENU -->
-          <nav role="navigation" class="ui-section-header--nav">
-            <h3>Party Members</h3>
-            <a href="/inyx">Inyx</a>
-            <br>
-            <a href="/malvara">Malvara</a>
-            <br>
-            <a href="/sully">Sully</a>
-            <br>
-            <a href="/zee">Zee</a>
+          <nav role="navigation" class="ui-section-header--nav" id="hamburg_nav">
           </nav>
         </div>
       </div>
@@ -146,7 +139,7 @@
                   </div>
                   <div class="spoiler__content-wrap">
                     <div class="spoiler__content">
-                      <p>TBA.</p>
+                      <zero-md src="bgs/malvara.md"></zero-md>
                     </div>
                   </div>
                 </div>

@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="uisual" content="Made with Uisual (uisual.com)">
-    <meta name="author" content="#">
-    <meta name="description" content="#">
     <meta name="referrer" content="unsafe-url">
     <meta name="robots" content="index, follow">
     <!-- SPEED -->
@@ -27,6 +25,9 @@
     <link rel="preload" as="style" href="../code/style.css">
     <link rel="stylesheet" href="../code/style.css">
     <script src="../code/index.js" defer></script>
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
   </head>
   <body>
     <!-- HEADER -->
@@ -38,15 +39,7 @@
           <input type="checkbox" id="ui-section-header--menu-id">
           <label for="ui-section-header--menu-id" class="ui-section-header--menu-icon"></label>
           <!-- MENU -->
-          <nav role="navigation" class="ui-section-header--nav">
-            <h3>Party Members</h3>
-            <a href="/inyx">Inyx</a>
-            <br>
-            <a href="/malvara">Malvara</a>
-            <br>
-            <a href="/sully">Sully</a>
-            <br>
-            <a href="/zee">Zee</a>
+          <nav role="navigation" class="ui-section-header--nav" id="hamburg_nav">
           </nav>
         </div>
       </div>
@@ -57,7 +50,7 @@
           <div class="ui-section-feature-char__layout ui-layout-grid">
             <div class="ui-component-card ui-component-card--feature-char">
               <div class="ui-component-card--feature-char-pic">
-              <img src="images/characters/tba.png" alt="#" loading="lazy">
+              <img src="images/characters/npcs/orion.png" alt="#" loading="lazy">  
               <table>
                 <tr>
                   <th>Species</th>
@@ -82,17 +75,22 @@
                 </table>
               </div>
               <div class="ui-component-card--feature-content">
-                <h2 class="ui-component-card--feature-title">Edith, possibly Dracovy</h2>
+                <h2 class="ui-component-card--feature-title">Orion Preigle</h2>
                 <hr>
-                <p><a href="/sully">Sully's</a> late wife and co-owner of boo by the start of the game.</p>
+                <blockquote>
+                  Do you believe hope is something a person finds?<br>
+                  <small><em>— Orion, assessing the party.</em></small>
+                </blockquote>
+                <p>tba.</p>
                 <h3>History</h3>
                 <hr>
-                <p>Sully has mentioned honoring his wife in standing for his beliefs.</p>
+                <p>Info here.</p>
                 <h3>Relations</h3>
                 <hr>
+                <p>Info here.</p>
+                <h3>Outside of Party</h3>
                 <ul>
-                  <li>Late wife of <a href="/sully">Sully</a>.</li>
-                  <li>Co-owner of <a href="/boo">Boo</a>.</li>
+                  <li><b><a href="https://grey-inheritance.github.io/">Eden / Ezmeralda.</b></a>&nbsp; Tba.</li>
                 </ul>
                 </p>
               </div>

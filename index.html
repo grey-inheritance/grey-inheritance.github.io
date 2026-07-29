@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="uisual" content="Made with Uisual (uisual.com)">
-    <meta name="author" content="#">
-    <meta name="description" content="#">
+    <meta name="author" content="(cel)ery">
+    <meta name="description" content="Welcome to Barovia.">
     <meta name="referrer" content="unsafe-url">
     <meta name="robots" content="index, follow">
     <!-- SPEED -->
@@ -22,8 +22,12 @@
     <link rel="icon" type="image/png" href="images/icon.png" sizes="48x48">
     <!-- PERFORMANCE -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
-    <link rel="preload" as="style" href="code/style.css">
-    <link rel="stylesheet" href="code/style.css">
+    <link rel="preload" as="style" href="../code/style.css">
+    <link rel="stylesheet" href="../code/style.css">
+    <script src="../code/index.js" defer></script>
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
     <!-- TITLE -->
     <title>GREY INHERITANCE</title>
   </head>
@@ -31,28 +35,23 @@
     <header role="banner" class="ui-section-header">
       <div class="ui-layout-container">
         <div class="ui-section-header__layout ui-layout-flex">
+          <!-- TITLE -->
              <a href="/" style="text-decoration:none;"><h3><span style="font-size:1.5rem;">♣ </span>&nbsp; Grey Inheritance</h3></a>
+          <!-- SEARCH BAR
+          <form>
+            <div class="ui-search-wrapper">
+              <div class="ui-search-input">
+                ⌕ <input type="search" class="ui-search-input-typer" placeholder="Scrying...">
+              </div>
+            </div>
+          </form>
+          <div class="blanker"></div>
+          -->
           <!-- HAMBURGER -->
           <input type="checkbox" id="ui-section-header--menu-id">
           <label for="ui-section-header--menu-id" class="ui-section-header--menu-icon"></label>
           <!-- MENU -->
-          <nav role="navigation" class="ui-section-header--nav">
-            <h3>Session Summary</h3>
-            <a href="/session/001">Session 001.</a>
-            <br>
-            <a href="/session/002">Session 002.</a>
-            <br>
-            <h3>Party Members</h3>
-            <a href="/inyx">Inyx</a>
-            <br>
-            <a href="/malvara">Malvara</a>
-            <br>
-            <a href="/sully">Sully</a>
-            <br>
-            <a href="/zee">Zee</a>
-            <br>
-            <h3>Locations</h3>
-            <a href="/vallaki">Vallaki</a>
+          <nav role="navigation" class="ui-section-header--nav" id="hamburg_nav">
           </nav>
         </div>
       </div>

@@ -24,9 +24,12 @@
     <title>GREY INHERITANCE</title>
     <!-- PERFORMANCE -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
-    <link rel="preload" as="style" href="code/style.css">
-    <link rel="stylesheet" href="code/style.css">
-    <script src="/code/index.js" defer></script>
+    <link rel="preload" as="style" href="../code/style.css">
+    <link rel="stylesheet" href="../code/style.css">
+    <script src="../code/index.js" defer></script>
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
   </head>
   <body>
     <!-- HEADER -->
@@ -38,15 +41,7 @@
           <input type="checkbox" id="ui-section-header--menu-id">
           <label for="ui-section-header--menu-id" class="ui-section-header--menu-icon"></label>
           <!-- MENU -->
-          <nav role="navigation" class="ui-section-header--nav">
-            <h3>Party Members</h3>
-            <a href="/inyx">Inyx</a>
-            <br>
-            <a href="/malvara">Malvara</a>
-            <br>
-            <a href="/sully">Sully</a>
-            <br>
-            <a href="/zee">Zee</a>
+          <nav role="navigation" class="ui-section-header--nav" id="hamburg_nav">
           </nav>
         </div>
       </div>
@@ -159,7 +154,7 @@
                 <p><b><a href="https://grey-inheritance.github.io/sully">Sully.</a></b>&nbsp; Although not as close, Zee seems familiar enough with Sully to have known him previously.</p>
                 <h3>Outside of Party</h3>
                 <ul>
-                  <li>Zee has mentioned his father in passing.</li>
+                  <li>Zee has mentioned his parents in passing, but doesn't seem actively in touch with them.</li>
                   <li>Zee has been arrested by Vallaki guards in the past.</li>
                   <li>People of all places seem to have a distaste for Zee.</li>
                 </ul>
